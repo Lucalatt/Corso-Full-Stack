@@ -1,0 +1,227 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url("../img/sfondo.png");
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(#4599bd, #2e6a84);
+    padding: 30px;
+    box-shadow: 2px 2px 4px,-2px 0px 2px grey;
+    height: 220px;
+}
+
+header div img {
+    display: block;
+    margin: 0 auto;
+}
+
+header p {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 30px;
+}
+
+header nav {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+header li {
+    text-align: center;
+    margin: 10px;
+    list-style-type: none;
+}
+
+header li ::before {
+    content: "\21D2";
+}
+
+header li ::after {
+    content: "\21D0";
+}
+
+header a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+
+hr {
+    visibility: hidden;
+}
+
+main {
+    background-color: white;
+    padding: 30px 15px;
+    box-shadow: 2px 2px 4px,-2px 0px 2px grey;
+}
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+main h1 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    word-spacing: 6px;
+    margin-bottom: 25px;
+}
+
+main p {
+    padding-bottom: 20px;
+    line-height: 1.4;
+}
+
+main article h1+p {
+    color: rgba(150, 147, 147, 0.74);
+    word-spacing: 2px;
+}
+
+main ul {
+    margin-left: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+main ul code {
+    border: solid 1px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+main h2 {
+    margin-bottom: 4px;
+}
+
+strong {
+    color: #9f648b;
+    font-weight: bold;
+}
+
+main ol {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+a {
+    color: #519fc3;
+    font-weight: 600;
+}
+
+/* TABELLE */
+
+
+table caption {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    border-bottom: solid 1px #4567c0;
+    margin-bottom: 20px;
+}
+    
+thead {
+    background-color: #4567c0;
+    color: white;
+    height: 50px;
+}
+
+th {
+    border: solid white 0.1px;
+    padding: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+iframe {
+    border-radius: 25px;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+
+
+/* FORM */
+
+ form h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: lightgrey;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+ aside div {
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+aside p {
+    margin-left: 2px;
+}
+
+.data {
+    text-align: end;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: linear-gradient(#43819c, #192b33);
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 4px,-2px 0px 2px grey;
+}
+
+footer a {
+    color: rgb(192, 9, 192);
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer address {
+    line-height: 1.4;
+    word-spacing: 4px;
+}
