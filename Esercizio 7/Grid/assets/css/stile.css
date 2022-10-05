@@ -331,10 +331,15 @@ footer a {
 }
 
 @media screen and (min-width:800px) {
+
+
+    article {grid-area:article}
+    aside {grid-area:aside}
+    
     main {
         display: grid;
-        grid-template-areas: 'artcle aside';
-        gap: 40px;
+        grid-template-areas: 'article article aside';
+        gap: 10px;
     }
     
     section {
