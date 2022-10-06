@@ -1,0 +1,44 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+main {
+    border: solid 1px black;
+    font-family: 'Roboto Slab', serif;
+    margin: 200px;
+    padding: 15px;
+    width: 400px;
+    font-weight: bold;
+    position: relative;
+}
+
+.parole i{
+    
+    padding-left: 1px;
+    position: absolute;
+    overflow: hidden;
+    color: transparent;
+    animation: parole 9s infinite 0s;
+    -webkit-animation: parole 9s infinite 0s;
+    -moz-animation: parole 9s infinite 0s;
+    -o-animation: parole 9s infinite 0s;
+}
+.parole i:nth-child(2) {
+    animation-delay: 5s;
+}
+.parole i:nth-child(3) {
+    animation-delay: 8s;
+}
+@keyframes parole{
+    0% {color: transparent; top: 0px}
+    25% {color: #7d96a8; top: 50px}
+    50% {color: transparent; top: 70px;}
+}

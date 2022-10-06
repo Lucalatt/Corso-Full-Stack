@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+body {
+    background-color: #666666;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Indie Flower', cursive;
+    }
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    font-weight: 1.3em;
+    
+}
+
+
+
+div {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.giallo {
+    background-image: linear-gradient(#FCFCCA, #BDBDA3);
+    box-shadow: 4px 4px 2px #4d4a4a;
+    transform: rotate(-5deg);
+}
+
+.viola {
+    background-image: linear-gradient(#9291a8, #8A8C9B);
+    box-shadow: 4px 4px 2px #4d4a4a;
+    transform: rotate(-10deg);
+}
+
+.verde {
+    background-image: linear-gradient(#c8fbca, #9EB6A0);
+    box-shadow: 4px 4px 2px #4d4a4a;
+    transform: rotate(8deg);
+}
+
+#postQuattro {
+    background-image: linear-gradient(#c8fbca, #9EB6A0);
+    box-shadow: 4px 4px 2px #4d4a4a;
+    transform: rotate(12deg);
+}
+
+div:hover {
+    transform: scale(2);
+    z-index: 10;
+}
+
+#postQuattro:hover {
+    transform: scale(2);
+    z-index: 10;
+
+}
