@@ -1,0 +1,11 @@
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.5em;
+   background: linear-gradient(-90deg, rgb(229, 160, 172), rgb(177, 20, 112));
+   color: blue;
+}
+
