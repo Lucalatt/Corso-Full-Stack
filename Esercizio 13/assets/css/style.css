@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(90deg, lightblue, rgb(209, 127, 127), lightblue);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    color: lightcyan;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 50px;
+}
+
+p {
+    padding: 15px;
+    font-size: 1.4em;
+}
+
+#mese {
+    display: inline-block;
+}
+
+#giorno {
+    display: inline-block;
+}
+
+#ora {
+    display: inline-block;
+}
+
+p:last-child {
+    font-size: 3em;
+}
