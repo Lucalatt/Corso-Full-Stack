@@ -1,0 +1,52 @@
+{
+    "Gruppi Musicali": [
+        {
+            "id": 1,
+            "nome": "Oasis",
+            "stile": "Rock",
+            "album": "12",
+            "componenti": [
+                "Noel Gallagher",
+                "Liam Gallagher",
+                "Gem Archer",
+                "Andy Bell"
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "Destiny's Child",
+            "stile": "Pop",
+            "album": "5",
+            "componenti": [
+                "Beyoncé Knowles",
+                "Kelly Rowland",
+                "Michelle Williams"
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "The White Stripes",
+            "stile": "Rock",
+            "album": "7",
+            "componenti": [
+                "Jack White",
+                "Meg White"                
+            ]
+        },
+        {
+            "id": 4,
+            "nome": "The Cure",
+            "stile": "Alternative Rock",
+            "album": "13",
+            "componenti": [
+                "Robert Smith",
+                "Simon Gallup",
+                "Roger O'Donnell",
+                "Perry Bamonte",
+                "Jason Cooper",
+                "Reeves Gabrels"
+            ]
+        }
+    ]
+    
+}
